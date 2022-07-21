@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 15, 2021, 8:29:39 AM
+    Author     : duchi
+*/
+
+
+
+.cursor {
+    cursor: pointer;
+}
+
+
+img.hover-shadow {
+    transition: 0.5s;
+}
+
+.hover-shadow:hover {
+
+    width: 100%;
+    cursor: pointer;
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
